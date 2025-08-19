@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="gap">
+        <h1>PEDRA PAPEL TESOURA</h1>
+        <button class="button-nav">?</button>
+    </nav>
+    <div class="flex-card mt-5">
+        <div class="card">
+            <p class="p-card">Você</p>
+            <div class="img-card mt-2">
+            <img id="img-voce" alt="">
+            </div>
+        </div>
+        <span id="result" ></span>
+        <div class="card">
+            <p class="p-card">Computador</p>
+            <div class="img-card mt-2">
+            <img id="img-computador" alt="">
+            </div>
+            <span id=""></span>
+        </div>
+    </div>
+    <div class="aligne mt-2">
+        <button id="pedra" type="button" onclick="jogar('pedra')">
+            <img src="pedra.png" alt=""></button>
+        <button id="papel" type="button" onclick="jogar('papel')">
+            <img src="papel.png" alt=""></button>
+        <button id="tesoura" type="button" onclick="jogar('tesoura')">
+            <img src="tesoura.png" alt=""></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

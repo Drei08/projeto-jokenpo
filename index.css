@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background: #8D3CFF;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem 4rem;
+    margin: auto;
+
+}
+
+h1{
+    margin-top: 3rem;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p, span{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+}
+
+button{
+    background: #2E2E2E; 
+    border-radius: 50%;
+    padding: 20px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 3px solid #535252;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button img{
+    width: 90%;
+    height: auto;
+}
+
+.button-nav{
+    margin-top: 4rem;
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+}
+
+.container{
+    width: 50%;
+}
+
+.card{
+    width: 25vw;
+    height: 15vw;
+    background: #2E2E2E;
+    border-radius: 1rem;
+    border: 3px solid #535252;
+}
+
+.img-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-card{
+    height: 8vh;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gap{
+    gap: 27rem;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mt-2{
+    margin-top: 1rem;
+}
+
+.mt-3{
+    margin-top: 2rem;
+}
+
+.mt-4{
+    margin-top: 3rem;
+}
+
+.mt-5{
+    margin-top: 4rem;
+}
+
+.mt-6{
+    margin-top: 11rem;
+}
