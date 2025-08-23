@@ -11,6 +11,7 @@ body{
     height: 100vh;
     padding: 1rem 4rem;
     margin: auto;
+    overflow-x: hidden;
 
 }
 
@@ -25,6 +26,17 @@ p, span{
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.span-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result, #jC {
+    display: block;
+    margin-top: 8px;
 }
 
 nav{
@@ -76,6 +88,13 @@ button img{
     border: 3px solid #535252;
 }
 
+.card-central {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img-card{
     display: flex;
     align-items: center;
@@ -93,6 +112,25 @@ button img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-resultado {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 0.5rem 0;
+}
+
+.gap-resultado {
+    margin-top: 0.2rem;
+    gap: 14rem;
+}
+
+#somaJ, #somaC, #emp {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
 .flex{
@@ -118,6 +156,10 @@ button img{
     gap: 27rem;
 }
 
+.gap-1{
+    gap: 1rem
+}
+
 .mt-1{
     margin-top: 0.5rem;
 }
@@ -139,7 +181,7 @@ button img{
 }
 
 .mt-6{
-    margin-top: 11rem;
+    margin-top: 5rem;
 }
 
 @media (max-width: 768px) {
@@ -150,12 +192,6 @@ button img{
     h1 {
         font-size: 2rem;
         text-align: center;
-    }
-
-    .gap {
-        flex-direction: column;
-        gap: 1rem;
-        align-items: center;
     }
 
     nav {
@@ -173,6 +209,11 @@ button img{
     .card {
         width: 90vw;
         height: auto;
+    }
+
+    .card-central {
+        margin-top: 1rem;
+        text-align: center;
     }
 
     .aligne {
@@ -197,7 +238,50 @@ button img{
         height: 3rem;
     }
 
+     #somaJ, #somaC, #emp {
+        font-size: 1rem;
+    }
+
     p, span {
         font-size: 0.9rem;
+    }
+
+    .gap {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .gap-1 {
+        gap: 0.5rem;
+    }
+
+    .gap-resultado {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .mt-1 {
+        margin-top: 0.3rem;
+    }
+
+    .mt-2 {
+        margin-top: 0.5rem;
+    }
+
+    .mt-3 {
+        margin-top: 1rem;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem;
+    }
+
+    .mt-5 {
+        margin-top: 2rem;
+    }
+
+    .mt-6 {
+        margin-top: 2.5rem;
     }
 }

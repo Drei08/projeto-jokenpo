@@ -15,23 +15,35 @@ rel="stylesheet">
         <h1>PEDRA PAPEL TESOURA</h1>
         <button class="button-nav">?</button>
     </nav>
-    <div class="flex-card mt-5">
+
+    <div class="flex-card mt-3">
         <div class="card">
             <p class="p-card">Você</p>
             <div class="img-card mt-2">
-            <img id="img-voce" alt="">
+                <img id="img-voce" alt="">
             </div>
         </div>
-        <span id="result" ></span>
+    
+        <div class="card-central" >
+            <span id="result" ></span>
+            <p class="mt-5">Empates</p>
+        </div>
+
         <div class="card">
             <p class="p-card">Computador</p>
             <div class="img-card mt-2">
-            <img id="img-computador" alt="">
+                 <img id="img-computador" alt="">
             </div>
-            <span id=""></span>
         </div>
     </div>
-    <div class="aligne mt-2">
+
+    <div  class="card-resultado gap-resultado">
+        <span id="somaJ"></span>
+        <span id="emp"></span>
+        <span id="somaC"></span>
+    </div>
+
+    <div class="aligne mt-3">
         <button id="pedra" type="button" onclick="jogar('pedra')">
             <img src="pedra.png" alt=""></button>
         <button id="papel" type="button" onclick="jogar('papel')">
